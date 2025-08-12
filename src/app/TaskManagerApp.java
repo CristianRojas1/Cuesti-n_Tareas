@@ -4,17 +4,18 @@
  */
 package app;
 
-/**
- *
- * @author User
- */
-public class TaskManagerApp {
+import com.tuapellido.taskmanager.ui.MainFrame;
+import javax.swing.SwingUtilities;
 
-    /**
-     * @param args the command line arguments
-     */
+public class TaskManagerApp {
     public static void main(String[] args) {
-        // TODO code application logic here
+        SwingUtilities.invokeLater(() -> {
+            try {
+                new MainFrame().setVisible(true);
+            } catch (Exception e) {
+                System.err.println("Error al iniciar la aplicación: " + e.getMessage());
+                e.printStackTrace();
+            }
+        });
     }
-    
 }
