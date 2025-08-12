@@ -4,7 +4,7 @@
  */
 package ui;
 
-import com.tuapellido.taskmanager.dominio.Tarea;
+import dominio.Tarea;
 import javax.swing.table.AbstractTableModel;
 import java.util.ArrayList;
 import java.util.List;

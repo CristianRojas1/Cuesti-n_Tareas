@@ -4,7 +4,7 @@
  */
 package app;
 
-import com.tuapellido.taskmanager.ui.MainFrame;
+import ui.MainFrame;
 import javax.swing.SwingUtilities;
 
 public class TaskManagerApp {

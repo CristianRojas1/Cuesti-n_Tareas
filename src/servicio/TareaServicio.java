@@ -4,10 +4,10 @@
  */
 package servicio;
 
-import com.tuapellido.taskmanager.dao.TareaDAO;
-import com.tuapellido.taskmanager.dominio.Tarea;
-import com.tuapellido.taskmanager.dominio.Prioridad;
-import com.tuapellido.taskmanager.dominio.TareaException;
+import dao.TareaDAO;
+import dominio.Tarea;
+import dominio.Prioridad;
+import dominio.TareaException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
